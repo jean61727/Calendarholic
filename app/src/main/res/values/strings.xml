@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calendar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_journal">Journal</string>
+    <string name="title_activity_album">Album</string>
+    <string name="title_activity_todo">TodoList</string>
+    <string name="title_activity_calendar">Calendar</string>
+    <string name="title_activity_notes">Notes</string>
+    <string name="title_activity_note">Note</string>
+    <string name="options_exit_text">Exit</string>
+    <string name="message_empty_layout_changes">empty_layout_changes</string>
+    <string name="action_add_item">action_add_item</string>
+    <string name="action_remove_item">action_remove_item</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_journal_activity_card">Journal</string>
+    <string name="title_activity_file">FileActivity</string>
+    <string name="nothing_to_be_done">No things to be done</string>
+    <string name="title_activity_todo_input">TodoInput</string>
+    <string name="save">save</string>
+    <string name="add_todo">Add</string>
+    <string name="menu_insert">Add Item</string>
+    <string name="menu_delete">Delete Todo</string>
+    <string name="todo_summary">Summary</string>
+    <string name="todo_description">Delete Todo</string>
+    <string name="todo_edit_summary">Summary</string>
+    <string name="todo_edit_description">Description</string>
+    <string name="todo_edit_confirm">Confirm</string>
+    <string name="button">Add</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_todo_add_task">AddTask</string>
+    <string name="newtask">New Task</string>
+    <string name="take_photo">TakePic</string>
+    <string name="title_activity_journal_input">New Journal</string>
+    <string name="new_title">title</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="journal_save">Save</string>
+    <string name="selectdate">selectdate</string>
+    <string name="title_activity_change_journal">Journal edit</string>
+    <string name="title_activity_change_task">Task edit</string>
+    <string name="title_activity_wish_list_input">New WishList</string>
+    <string name="title_activity_change_wish">Wish edit</string>
+    <string name="title_activity_change_album">Album edit</string>
+    <string name="title_activity_grid_view_testing">GridViewTesting</string>
+    <string name="title_activity_calendar_view">CalendarViewActivity</string>
+    <string name="PetActivity">Pet</string>
+    <string name="title_activity_album_input">Add Photo</string>
+
+</resources>

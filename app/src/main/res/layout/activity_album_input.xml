@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jeanlee.calendar.AlbumInputActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/back_2"
+    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/photo_3"
+        android:orientation="vertical">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:visibility="invisible"
+                    android:layout_weight="1"
+                    android:layout_width="80sp"
+                    android:layout_height="50sp"
+                    android:id="@+id/album_save"
+                    android:text="save"
+                    android:textSize="14sp"
+                    />
+                <Button
+
+                    android:layout_weight="1"
+                    android:layout_width="80sp"
+                    android:layout_height="50sp"
+                    android:id="@+id/album_cancel"
+                    android:text="cancel"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/album_title"
+            android:paddingLeft="15dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="title"/>
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:src="@color/pink"
+            android:id="@+id/imgtaken"
+            android:visibility="invisible"/>
+        <EditText
+            android:id="@+id/album_datetext"
+            android:layout_width="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:hint="@string/selectdate"
+            >
+        </EditText>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/album_descri"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/todo_edit_description"
+            />
+
+
+    </LinearLayout>
+</LinearLayout >

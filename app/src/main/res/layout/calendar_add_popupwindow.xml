@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="#E0FFCCFF"
+        android:layout_width="fill_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:layout_marginTop="0dp">
+            <LinearLayout
+                android:layout_weight="9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingRight="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="time : "
+                    android:id="@+id/textView1"
+                    android:textSize="17sp"/>
+
+                <EditText
+
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/popup_picktime1"
+                    android:layout_gravity="center_horizontal" />
+
+                <TextView
+                    android:paddingTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=" :  "
+                    android:textStyle="bold"
+                    android:id="@+id/textView3"
+                    android:textSize="17sp"/>
+
+                <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/popup_picktime2"
+                    android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+
+                    android:layout_weight="1"
+                    android:layout_width="80sp"
+                    android:layout_height="50sp"
+                    android:id="@+id/poppup_button"
+                    android:text="add"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:paddingRight="23dp"
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="title : "
+                android:id="@+id/textView2"
+                android:textSize="17sp"/>
+
+            <EditText
+                android:maxLines="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/popup_write"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

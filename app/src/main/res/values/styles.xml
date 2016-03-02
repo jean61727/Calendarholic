@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+   <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+        <!-- Customize your theme here. -->
+       <!-- <item name="android:actionBarStyle">@style/MyActionBarPink</item>->
+   </style>
+
+        <!- ActionBar styles -->
+        <!--<style name="MyActionBarPink"
+               parent="@android:style/Widget.Holo.Light.ActionBar">
+               <item name="android:background">@drawable/pink</item>
+        </style>-->
+    <style name="Box_inner">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+    </style>
+
+
+</resources>

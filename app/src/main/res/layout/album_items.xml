@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+
+    >
+    <LinearLayout
+        android:id="@+id/album_item_layout"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/photo_1"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:orientation="vertical">
+        <TextView
+            android:maxLines="1"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="3dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/album_item_title"
+            android:text=""
+            android:textSize="14dip"
+            android:paddingLeft="9dp"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="#0000FF"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@color/pink"
+            android:id="@+id/album_item_img"
+            android:visibility="invisible"/>
+        <TextView
+            android:maxLines="1"
+            android:padding="3dp"
+            android:id="@+id/album_item_date"
+            android:text=""
+            android:textSize="14dip"
+            android:layout_gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purple"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:maxLines="3"
+            android:padding="3dp"
+            android:textSize="14dip"
+            android:text="ccc"
+            android:id="@+id/album_item_descri"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/caldroid_black"
+            />
+        </LinearLayout>
+
+
+</LinearLayout>

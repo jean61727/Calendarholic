@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jeanlee.calendar" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".JournalActivity"
+            android:label="@string/title_activity_journal" >
+        </activity>
+        <activity
+            android:name=".AlbumActivity"
+            android:label="@string/title_activity_album" >
+        </activity>
+        <activity
+            android:name=".TodoActivity"
+            android:label="@string/title_activity_todo" >
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar" >
+        </activity>
+        <activity
+            android:name=".NoteActivity"
+            android:label="@string/title_activity_note" >
+        </activity>
+
+        <activity
+            android:name=".FileActivity"
+            android:label="@string/title_activity_file" >
+        </activity>
+        <activity
+            android:name=".TodoInputActivity"
+            android:label="@string/title_activity_todo_input"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+            >
+        </activity>
+
+        <provider
+            android:name="sqlite.contentProvider.MyTodoContentProvider"
+            android:authorities="sqlite.contentProvider" >
+        </provider>
+
+        <activity
+            android:name=".JournalInputActivity"
+            android:label="@string/title_activity_journal_input" >
+        </activity>
+        <activity
+            android:name=".ChangeJournal"
+            android:label="@string/title_activity_change_journal" >
+        </activity>
+        <activity
+            android:name=".ChangeTaskActivity"
+            android:label="@string/title_activity_change_task" >
+        </activity>
+        <activity
+            android:name=".WishListActivity"
+            android:label="@string/title_activity_wish_list" >
+        </activity>
+        <activity
+            android:name=".WishListInputActivity"
+            android:label="@string/title_activity_wish_list_input" >
+        </activity>
+        <activity
+            android:name=".ChangeWish"
+            android:label="@string/title_activity_change_wish" >
+        </activity>
+        <activity
+            android:name=".CalendarViewActivity"
+            android:label="@string/title_activity_calendar_view" >
+        </activity>
+        <activity
+            android:name=".PetActivity"
+            android:label="@string/PetActivity" >
+        </activity>
+        <activity
+            android:name=".AlbumInputActivity"
+            android:label="@string/title_activity_album_input" >
+        </activity>
+        <activity
+            android:name=".ChangeAlbum"
+            android:label="@string/title_activity_change_album" >
+        </activity>
+    </application>
+
+</manifest>

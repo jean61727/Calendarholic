@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="20dp"
+    android:background="@drawable/list_background_copy">
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:smoothScrollbar="false"
+        android:divider="@android:color/transparent"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        android:dividerHeight="5dp">
+
+    </ListView>
+
+
+</RelativeLayout>

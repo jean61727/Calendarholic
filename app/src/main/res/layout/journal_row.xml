@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dip"
+    android:background="@drawable/myjournal_row">
+    <!-- Article title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dip"
+        android:textSize="18dip"
+        android:textStyle="bold"
+        android:textColor="#303030" />
+
+    <!-- published date -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_below="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dip"
+        android:textSize="14dip"
+        android:textColor="@color/purple"/>
+
+    <!-- article description -->
+    <TextView android:id="@+id/descrip"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:paddingBottom="6dip"
+        android:textSize="15dip"
+        android:textColor="@color/light_blue"
+        android:layout_below="@id/date"/>
+</RelativeLayout>

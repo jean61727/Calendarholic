@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/summer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <EditText
+            android:id="@+id/datetext"
+            android:layout_width="250dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:editable="false"
+            android:hint="@string/selectdate">
+        </EditText>
+
+        <ImageButton
+            android:id="@+id/dateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/datetext"
+            android:contentDescription="@string/selectdate"
+            android:onClick="showDatePickerDialog"
+            android:src="@drawable/ic_action_edit" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/todo_edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="top"
+        android:hint="@string/newtask"
+        android:imeOptions="actionNext" >
+    </EditText>
+    <LinearLayout
+        android:id="@+id/LinearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_save"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/LinearLayout2">
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_Button"
+            android:text="@string/cancel_button"
+            android:layout_toRightOf="@+id/todo_edit_button" />
+    </LinearLayout>
+
+</LinearLayout>
